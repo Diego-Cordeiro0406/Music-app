@@ -1,0 +1,132 @@
+.searchBody {
+  display: flex;
+  flex-direction: row;
+}
+
+.inputSection {
+  display: flex;
+  background: #Eff3f9;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+}
+
+.formBody {
+  align-items: center;
+  background: linear-gradient(155deg, #003BE5 0%, #00D5E2 100%);
+  display: flex;
+  flex-shrink: 0;
+  height: 200px;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+}
+
+.inputSearch {
+  background: rgba(255, 255, 255, 0.50);
+  border: none;
+  border-radius: 23px;
+  color: white;
+  flex-shrink: 0;
+  font-family: Epilogue;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  height: 40px;
+  letter-spacing: 0.42px;
+  line-height: normal;
+  text-transform: uppercase;
+  width: 400px;
+}
+
+.labelBody {
+  align-items: center;
+  border-radius: 23px;
+  display: flex;
+  justify-content: center;
+}
+
+.searchIcon {
+  height: 30px;
+  margin-left: -35px;
+  width: 30px;
+}
+
+button {
+  background: #00d5e2;
+  border: none;
+  border-radius: 23px;  
+  color: white;
+  flex-shrink: 0;
+  font-family: Epilogue;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  height: 40px;
+  letter-spacing: 0.42px;
+  line-height: normal;
+  margin:10px;
+  text-transform: uppercase;
+  width: 114px;
+}
+
+.resultBody {
+  align-items: stretch;
+  background: #Eff3f9;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+}
+
+.imgCard {
+  border-radius: 30%;
+  width: 150px;
+  height: 150px;
+}
+
+
+
+.resultCard {
+  align-items: center;
+  border-radius: 5%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 450px;
+  text-align: center;
+}
+
+.phraseBody {
+  align-items: center;
+  background: #Eff3f9;
+  color: #003BE5;
+  display: flex;
+  flex-shrink: 0;
+  font-family: Epilogue;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 300;
+  justify-content: center;
+  line-height: normal;
+  text-align: center;
+  width: 100%;
+  height: 200px;
+  margin: 0;
+}
+
+.notFoundPhrase {
+  color: #C0C3C9;
+text-align: center;
+font-family: Epilogue;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

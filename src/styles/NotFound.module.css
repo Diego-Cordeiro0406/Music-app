@@ -1,0 +1,42 @@
+.notFoundBody {
+  align-items: center;
+  background: linear-gradient(155deg, #003be5 0%, #00d5e2 100%);
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.notFoundBox {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.notFoundOps {
+  color: #003be5;
+  flex-shrink: 0;
+  font-family: Epilogue;
+  font-size: 122.263px;
+  font-style: normal;
+  font-weight: 400;
+  height: 100px;
+  letter-spacing: 2.445px;
+  line-height: normal;
+  padding: 50px;
+  width: 200px;
+}
+
+.notFoundPhrase {
+  color: #00d5e2;
+  flex-shrink: 0;
+  font-family: Epilogue;
+  font-size: 36.679px;
+  font-style: normal;
+  font-weight: 300;
+  height: 60px;
+  letter-spacing: 0.734px;
+  line-height: 39.735px; /* 108.333% */
+  padding: 10px;
+  width: 300px;
+}

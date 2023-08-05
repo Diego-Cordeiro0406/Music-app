@@ -1,0 +1,16 @@
+.loadingBody {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.loadingPhrase {
+  color: #003be5;
+  font-family: Epilogue;
+  font-size: 48.92px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}

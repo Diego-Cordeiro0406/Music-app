@@ -1,0 +1,83 @@
+.profileEditBody {
+  display: flex;  
+}
+
+.profileEditSection {
+  background: #Eff3f9;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  margin: 0;
+  width: 100%;
+}
+
+.userPhotoBackground {
+  background: linear-gradient(155deg, #003BE5 0%, #00D5E2 100%);
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+
+}
+
+.profileImg {
+  border-radius: 240px;
+  box-shadow: -9px 8px 8px 0px rgba(0, 0, 0, 0.20);
+  flex-shrink: 0;
+  height: 240px;
+  margin-left: 60px;
+  margin-top: 80px;
+  padding: 0;
+  width: 240px;
+}
+
+.profileEditImg {
+  border: 1px solid #444955;
+  border-radius: 2px;
+  color: #444955;
+  flex-shrink: 0;
+  font-family: Epilogue;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  height: 37px;
+  line-height: 35px; /* 291.667% */
+  margin-left: 80px;
+  margin-top: 10px;
+  text-align: center;
+  width: 192px;
+}
+
+.profileEditForm {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center
+}
+
+.profileEditInput {
+  font-family: Verdana;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+  padding: 8px 0px 8px 8px;
+}
+
+.profileEditTextArea {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  height: 106px;
+  justify-content: center;
+  width: 490px;
+}
+
+.profileEditLabel {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 0;
+  gap: 10px;
+  padding: 8px 0px 8px 8px;
+}
