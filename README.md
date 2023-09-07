@@ -1,7 +1,7 @@
 
 # Bem vindo ao TrybeTunes!
 
-Aplicativo que fornece demos de musicas baseado na api da apple music.
+Aplicativo que fornece demos de musicas baseado na api do itunes.
 
 
 ## Funcionalidades
